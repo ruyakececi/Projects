@@ -1,0 +1,32 @@
+﻿@model JobListing.Entities.Job
+
+@{
+    ViewBag.Title = "JobRequirement";
+    Layout = "~/Areas/ManagementPanel/Views/Shared/_Layout.cshtml";
+}
+
+<h2>JobRequirements</h2>
+@{ 
+    var modelList = Model.Requirements.ToList();
+}
+@for (int i = 0; i < modelList.Count; i++)
+{
+    @Html.Hidden($"Requirements[{i}].RequirementNature", (int)modelList[i].RequirementNature);
+    <div class="form-horizontal">
+        <h4>@modelList[i].RequirementNature.ToString()</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label($"Requirements[{i}].Requirement", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextArea($"Requirements[{i}].Requirement", new { @class = "form-control" } )
+                @Html.ValidationMessage($"Requirements[{i}].Requirement", "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+

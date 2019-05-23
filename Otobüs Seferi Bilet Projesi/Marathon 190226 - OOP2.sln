@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoyageFramework", "VoyageFramework\VoyageFramework.csproj", "{FC82D7BB-E7A3-4180-852A-D973BA75BC1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoyageFramework.Test", "VoyageFramework.Test\VoyageFramework.Test.csproj", "{4695C5DC-B804-4806-A02B-02A8B1840BE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC82D7BB-E7A3-4180-852A-D973BA75BC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC82D7BB-E7A3-4180-852A-D973BA75BC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC82D7BB-E7A3-4180-852A-D973BA75BC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC82D7BB-E7A3-4180-852A-D973BA75BC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4695C5DC-B804-4806-A02B-02A8B1840BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4695C5DC-B804-4806-A02B-02A8B1840BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4695C5DC-B804-4806-A02B-02A8B1840BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4695C5DC-B804-4806-A02B-02A8B1840BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C66BABEC-0540-4C19-A63E-58730EDC9465}
+	EndGlobalSection
+EndGlobal
